@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-genviral-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://genviral.io/
+Genviral offers an AI‑driven social media scheduler and content creation platform that generates, schedules, and publishes posts across up to ten platforms for businesses. The service includes an AI studio for creating images and videos, hosted accounts that run on real devices, and programmatic access via REST API, CLI, and agent skills. It also provides unified analytics and competitor tracking for managed accounts.
+
+**Areas:** Social Media Scheduling · AI Content Generation · Hosted Accounts · API · Analytics · Multi-Platform Publishing
+
+## genviral-io on APIs.io
+
+Everything profiled for genviral-io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/genviral-io/](https://apis.io/providers/genviral-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Genviral Partner API](https://apis.io/apis/genviral-io/genviral-partner-api/) — REST API for posting, scheduling, slideshows, Studio AI, analytics, and automation across your platform.
+- [genviral-io API](https://apis.io/apis/genviral-io/genviral-io-api/) — genviral-io API as documented publicly: 36 operations. Contract generated from the documentation by API Evangelist (2026-11-09); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiPartnerV1Posts11111111111111111111111111111111Response](https://apis.io/schemas/genviral-io/genviral-io-get-api-partner-v1-posts11111111111111111111111111111111-response/)
+- [PostPacksPackidImagesResponse](https://apis.io/schemas/genviral-io/genviral-io-post-packs-packid-images-response/)
+- [PostPacksResponse](https://apis.io/schemas/genviral-io/genviral-io-post-packs-response/)
+- [PostPostsPostidCommitResponse](https://apis.io/schemas/genviral-io/genviral-io-post-posts-postid-commit-response/)
+- [PostPostsPrepareResponse](https://apis.io/schemas/genviral-io/genviral-io-post-posts-prepare-response/)
+- [PostPostsResponse](https://apis.io/schemas/genviral-io/genviral-io-post-posts-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Genviral Io Context](https://apis.io/jsonld/genviral-io/genviral-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [genviral-io API Rules](https://apis.io/rules/genviral-io/genviral-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [genviral-io Domain Security](https://apis.io/security/genviral-io/genviral-io-domain-security/)
+- [genviral-io Vulnerability Disclosure](https://apis.io/security/genviral-io/genviral-io-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [genviral-io Plans Pricing](https://apis.io/plans/genviral-io/genviral-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://genviral.io/)
+- [Documentation](https://docs.genviral.io/)
+- [API reference](https://docs.genviral.io/llms.txt)
+- [Pricing](https://www.genviral.io/pricing)
+- [Changelog](https://www.genviral.io/changelog)
+- [Blog](https://www.genviral.io/blog)
+- [Security](https://www.genviral.io/security)
+- [Terms of service](https://genviral.io/terms)
+- [Privacy policy](https://genviral.io/privacy)
+
+## API Evangelist rating
+
+**Kin Score 49.4** — developing · rubric 0.27.0 · scored 2026-11-09
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 25.5 |
+| Access clarity | 60.0 |
+
+**Agent readiness 25.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/genviral-io/](https://apis.io/providers/genviral-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for genviral-io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/genviral-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
